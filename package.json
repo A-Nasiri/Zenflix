@@ -1,0 +1,19 @@
+{
+  "name": "zenflix",
+  "version": "1.0.0",
+  "description": "ZENFLIX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-Nasiri/Zenflix.git"
+  },
+  "author": "Aidin Nasiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-Nasiri/Zenflix/issues"
+  },
+  "homepage": "https://github.com/A-Nasiri/Zenflix#readme"
+}
