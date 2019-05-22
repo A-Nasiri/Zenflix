@@ -160,6 +160,19 @@ img {
   color: #fff;
 }
 
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+  opacity: 0;
+}
+
+.show {
+  display: block !important;
+  opacity: 1 !important;
+  transition: all 1000 ease-in;
+}
+
 #tab-1-content .tab-1-content-inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -294,6 +307,10 @@ img {
   padding: 0.8rem 0.7rem;
   width: 210px;
   text-transform: uppercase;
+}
+
+.btn-icon {
+  margin-left: 1rem;
 }
 
 /* Text Styles */
