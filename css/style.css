@@ -127,7 +127,7 @@ img {
 /* Container*/
 
 .container {
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
@@ -149,6 +149,41 @@ img {
 
 .tab-border {
   border-bottom: var(--primary-color) 5px solid;
+}
+
+/* Tab Content */
+.tab-content {
+  padding: 3rem 0;
+  background: #000;
+  color: #fff;
+}
+
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#tab-2-content .tab-2-content-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tab2-btn {
+  align-self: flex-start;
+}
+
+#tab-2-content .tab-2-content-bottom {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  text-align: center;
 }
 
 /* Button styles*/
@@ -184,6 +219,33 @@ img {
 
 .btn-lg {
   font-size: 1rem;
-  padding: 0.8rem 1.3rem;
+  padding: 0.9rem 0.7rem;
+  width: 210px;
   text-transform: uppercase;
+}
+
+/* Text Styles */
+.text-xl {
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.text-lg {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.text-md {
+  margin-bottom: 1.6rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-dark {
+  color: #999;
 }
