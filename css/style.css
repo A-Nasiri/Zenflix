@@ -186,6 +186,40 @@ img {
   text-align: center;
 }
 
+/* Tab3 table styles */
+
+.table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table thead th {
+  text-transform: uppercase;
+  padding: 0.8rem;
+}
+
+.table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.table tbody tr td {
+  color: #999;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+
+.table tbody tr td:first-child {
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #222;
+}
+
 /* Button styles*/
 .btn {
   display: inline-block;
@@ -219,7 +253,7 @@ img {
 
 .btn-lg {
   font-size: 1rem;
-  padding: 0.9rem 0.7rem;
+  padding: 0.8rem 0.7rem;
   width: 210px;
   text-transform: uppercase;
 }
